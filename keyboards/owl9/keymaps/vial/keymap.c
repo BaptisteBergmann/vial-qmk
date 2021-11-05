@@ -15,6 +15,7 @@
  */
 #include QMK_KEYBOARD_H
 
+void keyboard_pre_init_kb(void) { setPinInputHigh(B7); }
 
 
 /*
@@ -26,7 +27,7 @@
  */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        KC_7,     KC_8, KC_9,
-        KC_1,       \
-        KC_4,     KC_5, KC_6)
+        _______,     _______, _______, \
+        _______,     _______, _______, \
+        _______)
 };

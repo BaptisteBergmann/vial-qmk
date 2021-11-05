@@ -29,12 +29,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* key matrix size */
-#define MATRIX_ROWS 3
+#define MATRIX_ROWS 2
 #define MATRIX_COLS 4
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { F6, F7, B7 }
-#define MATRIX_COL_PINS { F0, F1, F4 }
+#define MATRIX_ROW_PINS { F6, F7 }
+#define MATRIX_COL_PINS { F0, F1, F4, B7}
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
