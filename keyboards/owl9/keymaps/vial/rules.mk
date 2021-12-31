@@ -8,3 +8,4 @@ VIAL_ENCODERS_ENABLE = yes
 VIAL_INSECURE = yes
 CUSTOM_MATRIX = lite
 SRC += keymaps/vial/matrix.c
+VIALRGB_ENABLE = yes

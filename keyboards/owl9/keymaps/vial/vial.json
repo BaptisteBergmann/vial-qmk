@@ -4,7 +4,7 @@
     "maintainer": "owl",
     "vendorId": "0x13BB",
     "productId": "0x9000",
-    "lighting": "qmk_rgblight",
+    "lighting": "vialrgb",
     "matrix": {
         "rows": 2,
         "cols": 4
